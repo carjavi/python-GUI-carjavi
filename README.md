@@ -16,6 +16,7 @@
   - [Install Framwork \& Icons](#install-framwork--icons)
   - [Instalación de librerias de iconos](#instalación-de-librerias-de-iconos)
     - [All icons](#all-icons)
+  - [Charts](#charts)
 - [Demos](#demos)
 - [Arquitectura típica del proyecto](#arquitectura-típica-del-proyecto)
 - [Run](#run)
@@ -37,12 +38,11 @@
     - [Críticas y Desventajas del metodo .pack()](#críticas-y-desventajas-del-metodo-pack)
   - [.place()](#place)
 - [Links de referencias](#links-de-referencias)
-- [python-GUI-carjavi](#python-gui-carjavi)
 
 <br>
 
 <p align="center"><img src="./img/ttkb.png" width="380"   alt=" " /></p>
-<p align="center"><img src="./img/chart.png" width="500"   alt=" " /></p>
+<p align="center"><img src="./img/chart.png" width="600"   alt=" " /></p>
 
 ```GUI-carjavi```base GUI framework python dashboard (***ttkbootstrap-tkinter***). Es un demo sin logica funcional, solo quise tener mis ```widgets``` dentro de contenedores listos en bloques para usarlos en mis inerfaces futuras. La GUI usa librerias python open source con interfaces responsivas.
 
@@ -67,6 +67,11 @@ python -m pip install ttkbootstrap ttkbootstrap-icons
 ```bash
 pip install ttkbootstrap-icons-devicon ttkbootstrap-icons-eva ttkbootstrap-icons-fluent-reg ttkbootstrap-icons-ion ttkbootstrap-icons-fluent ttkbootstrap-icons-lucide ttkbootstrap-icons-mat ttkbootstrap-icons-meteocons ttkbootstrap-icons-remix ttkbootstrap-icons-rpga ttkbootstrap-icons-simple ttkbootstrap-icons-typicons ttkbootstrap-icons-weather ttkbootstrap-icons-bs ttkbootstrap-icons-fa ttkbootstrap-icons-gmi
 ```
+## Charts
+```bash
+pip install ttkbootstrap matplotlib pandas numpy
+```
+
 <br>
 
 # Demos
@@ -366,5 +371,4 @@ https://github.com/israel-dryer/ttkbootstrap?utm_source=chatgpt.com
 </p>
 
 
-# python-GUI-carjavi
-GUI-carjavi. base GUI framework python dashboard (ttkbootstrap-tkinter)
+
