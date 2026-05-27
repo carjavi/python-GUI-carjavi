@@ -37,14 +37,14 @@
   - [.pack()](#pack)
     - [Críticas y Desventajas del metodo .pack()](#críticas-y-desventajas-del-metodo-pack)
   - [.place()](#place)
-- [Links de referencias](#links-de-referencias)
+  - [Links de referencias](#links-de-referencias)
 
 <br>
 
 <p align="center"><img src="./img/ttkb.png" width="380"   alt=" " /></p>
 <p align="center"><img src="./img/chart.png" width="600"   alt=" " /></p>
 
-```GUI-carjavi```base GUI framework python dashboard (***ttkbootstrap-tkinter***). Es un demo sin logica funcional, solo quise tener mis ```widgets``` dentro de contenedores listos en bloques para usarlos en mis inerfaces futuras. La GUI usa librerias python open source con interfaces responsivas.
+```GUI-carjavi```base GUI python framework dashboard (***ttkbootstrap-tkinter***). Es un demo sin logica funcional, solo quise tener mis ```widgets``` dentro de contenedores listos en bloques para usarlos en mis inerfaces futuras. La GUI usa librerias python open source con interfaces responsivas.
 
 <br>
 
@@ -346,15 +346,13 @@ Si usas relx=0.5, rely=0.5, anchor=CENTER, el widget quedará perfectamente cent
 
 > :warning: **Warning:** ***place()*** es potente para diseños fijos o superposiciones (como iconos sobre imágenes), pero ```no es responsivo```. Si el usuario estira la ventana, los widgets con coordenadas absolutas (x, y) no se moverán, lo que puede romper tu interfaz. Usa siempre relx y rely si quieres que mantengan su posición proporcional.
 
-
-
-<br>
-
-# Links de referencias
+##  Links de referencias
 https://ttkbootstrap.readthedocs.io/en/latest/ <br>
 https://israel-dryer.github.io/ttkbootstrap-icons/ <br>
-https://github.com/israel-dryer/ttkbootstrap?utm_source=chatgpt.com
+https://github.com/israel-dryer/ttkbootstrap?utm_source=chatgpt.com <br>
+https://towardsdatascience.com/building-a-modern-dashboard-with-python-and-tkinter/ <br>
 
+<br>
 
 <br>
 
